@@ -2,17 +2,9 @@
 /*
  * Show Desktop from Overview
  * Very small extension which minimizes all windows when you click on an empty space in the windows-overview-mode.
- * Version for Gnome-Shell 3.6 and 3.8
- *
- * Changelog:
- *
- * Version 7: Compatibility for Gnome-Shell 3.12: removed tracker.is_window_interesting as it doesn't exist anymore
- * Version 6: Compatibility for Gnome-Shell 3.10
- * Version 5: Compatibility for Gnome-Shell 3.8
- * Version 3&4: Don't minimize icons on desktop if shown there
  *
  * Contact:
- * bazonbloch@arcor.de
+ * https://github.com/Bazon/ShowDesktopFromOverview/tree/master or bazonbloch@arcor.de
  * Feel free to send improvments!
 */
 
