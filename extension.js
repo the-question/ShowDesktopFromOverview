@@ -22,7 +22,7 @@ function _showDesktop() {
     let windows = activeWorkspace.list_windows();
     for (let i = 0; i < windows.length; i++) {
            //New in V3&4: tracker.is_window_interesting checks whether this is a real window and not a desktop icon
-           if (!windows[i].minimized && (windows[i].get_window_type() == 0)) {
+           if (!windows[i].minimized && (windows[i].get_window_type() == 0) && !(windows[i].get_title().indexOf("Conky") >= 0)) {
 	       windows[i].minimize();
            }
     }
